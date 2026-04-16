@@ -85,7 +85,7 @@ export default function ResultsStep({
             <div className="wizard-result-actions">
               <button
                 className="button-primary"
-                onClick={() => navigate(`/d/${distro.slug}`)}
+                onClick={() => navigate(`/distro/${distro.slug}`)}
               >
                 View details
               </button>
